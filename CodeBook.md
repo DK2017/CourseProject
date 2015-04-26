@@ -5,24 +5,24 @@ The observations were collected about 30 volunteers through sensor signals (acce
 
 #Variable Summary
 The code book contains 4 variables:
-*Subject - ID for the subject
-*Activity - Name of the physical activity performed
-*Feature - Names of the mean and standard deviation features that include body linear acceleration and angular velocity
-*Average - Average of the feature mean or standard deviation
+* Subject - ID for the subject
+* Activity - Name of the physical activity performed
+* Feature - Names of the mean and standard deviation features that include body linear acceleration and angular velocity
+* Average - Average of the feature mean or standard deviation
 
-##Subject
-*Values range from 1 to 30
-*Each number represents a subject in the experiment
-*Unitless
+###Subject
+* Values range from 1 to 30
+* Each number represents a subject in the experiment
+* Unitless
 
-##Activity
-*Values range from WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, to LAYING
-*Each name represents an activity that was performed by the subject
-*Unitless
-
-##Feature
-*Contains the names of the features' mean and standard deviation
-*There are 79 different feature names:
+###Activity
+* Values range from WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, to LAYING
+* Each name represents an activity that was performed by the subject
+* Unitless
+ 
+###Feature
+* Contains the names of the features' mean and standard deviation
+* There are 79 different feature names:
 [1] tBodyAcc-mean()-X               tBodyAcc-mean()-Y              
 [3] tBodyAcc-mean()-Z               tBodyAcc-std()-X               
 [5] tBodyAcc-std()-Y                tBodyAcc-std()-Z               
@@ -63,9 +63,9 @@ The code book contains 4 variables:
 [75] fBodyBodyGyroMag-std()          fBodyBodyGyroMag-meanFreq()    
 [77] fBodyBodyGyroJerkMag-mean()     fBodyBodyGyroJerkMag-std()     
 [79] fBodyBodyGyroJerkMag-meanFreq()
-*Unitless
+* Unitless
 
-##Average
-*Contains average observations of the features' mean and standard deviation. Is calculated by taking the average of the feature's mean and standard deviation
-*There are 79 average observations for each feature performed by each subject for each activity
-*Unitless
+###Average
+* Contains average observations of the features' mean and standard deviation. Is calculated by taking the average of the feature's mean and standard deviation
+* There are 79 average observations for each feature performed by each subject for each activity
+* Unitless
