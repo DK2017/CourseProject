@@ -23,6 +23,7 @@ The code book contains 4 variables:
 ###Feature
 * Contains the names of the features' mean and standard deviation
 * There are 79 different feature names:
+
  tBodyAcc-mean()-X               
  tBodyAcc-mean()-Y              
  tBodyAcc-mean()-Z               
